@@ -1,0 +1,94 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	background-color: #c4c4c4;
+}
+hr {
+  border: 0;
+  height: 1px;
+  color: #ccc;
+  background-color: #ccc
+}
+#battleship-game {
+	width: 680px;
+	min-height: 100%;
+	margin: 0 auto;
+	border: solid #aaa;
+	border-width: 0 1px;
+	background-color: #fff;
+}
+.title {
+  margin: 12px -40px;
+  font-family: helvetica;
+  font-weight: 600;
+  font-size: 1.4em;
+  width: 100%;
+  text-align: center;
+}
+.tile {
+	border: solid gray;
+	border-width: 0 1px 1px 0;
+}
+.tile-row {
+	height: 22px;
+	width: 220px;
+}
+.board {
+	height: 219px;
+	width: 219px;
+	border: 1px gray solid;
+	margin-bottom: 25px;
+}
+.player-board {
+	float: left;
+	margin: 0 -80px 0 80px;
+	width: 300px;
+}
+.buttons {
+	width: 408px;
+	margin: 0 auto;
+}
+.button {
+	width: 408px;
+	padding: 8px;
+}
+.label {
+	width: 100%;
+	text-align: center;
+	margin: 22px 0;
+	font-family: helvetica;
+}
+.label-turn {
+	font-weight: 900;
+	font-size: 1.8em;
+}
+.label-result {
+	font-weight: 600;
+	font-size: 1.6em;
+}
+.label-history {
+  font-weight: 100;
+  color: #6c6c6c;
+  font-size: 0.9em;
+  margin: 6px 60px;
+  text-align: left;;
+}
+.board-cover {
+	width: 219px;
+	height: 219px;
+	float: left;
+	position: absolute;
+	z-index: 99999999;
+	background-color: #ccc;
+	border: 1px solid black;
+	margin: -1px;
+	text-align: center;
+}
+.board-cover:hover{
+	opacity: 0;
+}
+.board-cover-text {
+	width: 100%;
+	margin-top: 76%;
+	font-size: 0.8em;
+}
